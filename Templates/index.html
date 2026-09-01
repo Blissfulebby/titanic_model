@@ -1,23 +1,63 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titanic Survival Predictor</title>
-    <link rel="stylesheet" href="/static/style.css">
+
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
 </head>
+
 <body>
-    <h2>Titanic Survival Predictor</h2>
-    <form action = "/predict" method="POST">
-        <label>Sex: </label>
-        <select name = "sex">
-            <option value = "male">Male</option>
-            <option value = "female">Female</option>
-        </select><br>
-        <label>Fare: </label>
-        <input type="text" name="fare"><br>
-        <input type="submit" value="Predict">
+
+
+<div class="container">
+
+    <h1>🚢 Titanic Survival Predictor</h1>
+
+    <p class="description">
+        Enter the passenger's information to predict their survival.
+    </p>
+
+    <form action="/predict" method="POST">
+
+        <label for="sex">Sex</label>
+
+        <select name="sex" id="sex" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <label for="fare">Fare</label>
+
+        <input
+            type="number"
+            name="fare"
+            id="fare"
+            step="0.01"
+            min="0"
+            placeholder="Enter fare"
+            required
+        >
+
+        <button type="submit">Predict Survival</button>
+
     </form>
+
     {% if prediction %}
-        <h3>Result: {{prediction}}</h3>
+        <div class="result">
+            <h2>Prediction Result</h2>
+            <p>{{ prediction }}</p>
+        </div>
     {% endif %}
+
+</div>
+
+
 </body>
 </html>
+
