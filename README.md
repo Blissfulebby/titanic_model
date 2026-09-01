@@ -2,31 +2,32 @@
 
 ##  About the Classwork
 
-This is a machine learning classwork project foc
-arning model can be integrated into a simple Flask web application to make predictions.
+This is a **machine learning classwork project** developed as part of my data science learning journey.
+
+The project demonstrates how a trained machine learning model can be integrated into a simple **Flask web application** to make predictions based on passenger information.
 
 ##  Objective
 
-The objective of this classwork is to:
+The objectives of this classwork are to:
 
 * Load and prepare the Titanic dataset
 * Perform basic data preprocessing
-* Train a Logistic Regression model
+* Train a Logistic Regression classification model
 * Save the trained model using Joblib
 * Build a Flask web application
-* Use the trained model to make predictions
+* Connect the trained model to the web application
+* Use the model to make survival predictions
 
 ##  Dataset
 
-The Titanic dataset used in this classwork contains information about passengers aboard the Titanic.
+The Titanic dataset contains information about passengers aboard the RMS Titanic.
 
-For this exercise, the following features were selected:
+For this classwork, the following features were selected:
 
 * **Sex**
 * **Fare**
-* **Survived**
 
-The `Survived` column is the target variable.
+The **Survived** column is the target variable.
 
 ## Data Preprocessing
 
@@ -150,10 +151,10 @@ This classwork helped me practice:
 * Encoding categorical data
 * Training a classification model
 * Saving and loading a machine learning model
-* Building a Flask application
+* Building a Flask web application
 * Connecting a machine learning model to a web interface
 * Using Git and GitHub for version control
-* Deploying a Python application
+* Preparing a Python application for deployment
 
 ## 👩🏽‍💻 Author
 
