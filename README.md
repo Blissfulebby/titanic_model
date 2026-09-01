@@ -1,11 +1,11 @@
 # 🚢 Titanic Survival Prediction
 
-## 📌 About the Classwork
+##  About the Classwork
 
 This is a machine learning classwork project foc
 arning model can be integrated into a simple Flask web application to make predictions.
 
-## 🎯 Objective
+##  Objective
 
 The objective of this classwork is to:
 
@@ -16,7 +16,7 @@ The objective of this classwork is to:
 * Build a Flask web application
 * Use the trained model to make predictions
 
-## 📊 Dataset
+##  Dataset
 
 The Titanic dataset used in this classwork contains information about passengers aboard the Titanic.
 
@@ -28,7 +28,7 @@ For this exercise, the following features were selected:
 
 The `Survived` column is the target variable.
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
 The dataset was prepared by:
 
@@ -40,7 +40,7 @@ The dataset was prepared by:
    * Female → `1`
 4. Separating the features (`X`) from the target variable (`y`).
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 A **Logistic Regression** classification model from Scikit-learn was used.
 
@@ -57,7 +57,7 @@ titanic_model.pkl
 
 using the `joblib` library.
 
-## 🌐 Flask Web Application
+##  Flask Web Application
 
 A Flask application was created to allow users to enter passenger information and receive a survival prediction.
 
@@ -71,7 +71,7 @@ The application:
    * **Survived**
    * **Did not Survive**
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 titanic_model/
@@ -90,7 +90,7 @@ titanic_model/
     └── style.css           # Styling for the web page
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python
 * Pandas
@@ -103,7 +103,7 @@ titanic_model/
 * Git & GitHub
 * Render
 
-## ⚙️ How to Run Locally
+##  How to Run Locally
 
 ### 1. Clone the repository
 
@@ -137,11 +137,11 @@ Open the local address displayed in your terminal, usually:
 http://127.0.0.1:5000
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 The project includes a `render.yaml` configuration file for deployment on Render.
 
-## 📚 What I Learned
+##  What I Learned
 
 This classwork helped me practice:
 
