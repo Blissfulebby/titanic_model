@@ -28,7 +28,7 @@ For this exercise, the following features were selected:
 
 The `Survived` column is the target variable.
 
-##  Data Preprocessing
+## Data Preprocessing
 
 The dataset was prepared by:
 
