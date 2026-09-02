@@ -75,6 +75,12 @@ The application:
 
    * **Survived**
    * **Did not Survive**
+     
+ ### 📸 Application Preview
+
+<p align="center">
+  <img src="titanic_app_screenshot.png" alt="Titanic Survival Prediction Web Application" width="800">
+</p>
 
 ##  Project Structure
 
