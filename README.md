@@ -2,13 +2,23 @@
   <img src="titanic_survival_banner.png" alt="Titanic Survival Prediction Banner" width="100%">
 </p>
 
-# 🚢 Titanic Survival Prediction
+# Titanic Survival Prediction
 
 ##  About the Classwork
 
 This is a **machine learning classwork project** developed as part of my data science learning journey.
 
 The project demonstrates how a trained machine learning model can be integrated into a simple **Flask web application** to make predictions based on passenger information.
+
+## ⭐ Project Highlights
+
+* Built a **machine learning classification model** using Logistic Regression.
+* Used **Sex** and **Fare** to predict Titanic passenger survival.
+* Saved the trained model using **Joblib**.
+* Integrated the model into a **Flask web application**.
+* Created an interactive web form for making predictions.
+* Documented the project using **GitHub and Markdown**.
+
 
 ##  Objective
 
