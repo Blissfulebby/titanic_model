@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="titanic_survival_banner.png" alt="Titanic Survival Prediction Banner" width="100%">
+</p>
+
 # 🚢 Titanic Survival Prediction
 
 ##  About the Classwork
